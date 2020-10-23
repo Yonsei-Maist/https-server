@@ -1,0 +1,11 @@
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-store: classpath:certificate.p12
+    key-store-type: PKCS12
+    key-alias: maist
+    key-store-password: maist5678
+
+
+
